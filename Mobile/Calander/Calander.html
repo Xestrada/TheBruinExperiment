@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--The MIT License (MIT)
+Copyright (c) 2016 AlternativeWEB
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.-->
+<html lang = "en">
+   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Jorge Estrada, Marcos Herrera, Daniel Hiaem">
+    <meta name = "description" content= "UCLA's TheBruinExperiment">
+    <meta name = "keywords" content = "Science,fair,UCLA,TheBruinExperiment,Mukai, Hiaem">
+    <title>TheBruinExperiment</title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	  
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../css/jquery-swipe-nav.css" media="all" />
+	<script src="http://code.jquery.com/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-swipe-nav-plugin.js"></script>  
+	
+	<link rel="stylesheet" type="text/css" href="../mobile.css">    
+	
+	<script type="text/javascript">
+	jQuery(document).ready(function($){
+			$('#swipeNav').swipeNav();
+		});
+	</script>
+			
+	 </head>
+	 
+	<body>
+	
+	<nav class="navbar navbar-inverse" style="margin:0px;">
+     <div class="container-fluid">
+      <div class="navbar-header">
+       <a class="navbar-brand" href = "../BruinMobile.html">TheBruinExperiment</a>
+       <button type="button" id="menuBtn"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+	   <nav id="swipeNav">
+	    <ul>
+		<li><a href="../BruinMobile.html">Home</a></li>
+         <li><a href="../Team/Team.html">The Team</a></li>
+         <li><a href="../Past_Projects/Past_Projects.html">Past Projects</a></li>
+		 <li><a href="../../Apply/Application.php">Apply</a></li>
+		 <li><a href="../../Login/Login.html">Login</a></li>
+        </ul>
+		</nav>
+    </nav>
+	<div id = "container">
+	<div id = "main">
+	
+	<script type = "text/javascript">
+	var width = document.GetElementById('iframe').offsetWidth;
+	width = document.GetElementByClass('navbar').offsetWidth;
+	</script>
+	
+	<iframe src="https://calendar.google.com/calendar/embed?src=thebruinexperiment%40gmail.com&ctz=America/Los_Angeles" id = "iframe" style = "width:100%; height:1500px;"></iframe>
+    
+	</body>
+      <div id = "foot">
+      	<a href  = "mailto:thebruinexperiment@gmail.com"><img src="../../Images/mail.png" alt = "Mail" height="14%" width="10%" id = "space"></a>
+        <a href= "https://www.facebook.com/thebruinexperiment/" target="_blank"><img src="../../Images/Facebook.png" alt = "Facebook" height="14%" width="10%" class = "icons"></a>
+        <a title = "1-310-999-1722" href="tel:13109991722"><img src="../../Images/phone.png" alt = "Phone NUmber" height="14%" width="10%" class = "icons"></a>
+       </div>
+	   </div>
+	   </div>
+</html>

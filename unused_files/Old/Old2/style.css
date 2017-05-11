@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+@keyframes splash {
+    from {
+        opacity: 0;
+        transform: scale(0, 0);
+		-webkit-transform: scale(0, 0);
+		-moz-transform: scale(0, 0);
+		
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2, 1.2);
+		-webkit-transform: scale(1.2, 1.2);
+		-moz-transform: scale(1.2, 1.2);
+    }
+    to {
+        transform: scale(1, 1);
+		-webkit-transform: scale(1, 1);
+		-moz-transform: scale(1, 1);
+    }
+}
+
+html{
+	min-width: 100px;
+	background: linear-gradient(to left , #1A70D5, #3792DD, #1A70D5);
+}
+
+#page{
+	width: 100%;
+}
+ 
+#body{
+	width: 100%;
+ }
+ 
+#top{
+	width: 100%;
+}
+
+nav{
+	background: linear-gradient(to left , #1A70D5, #3792DD, #1A70D5);
+	padding: 7px 0 7px 0;
+	color: #FFE539;
+	margin-top: 5px;
+}
+
+nav a{
+	font-family:'century gothic';
+	text-decoration: none;
+	padding: 0 4px 0 4px;
+	font-size: 14px;
+	font-weight:bold;
+	color: #FFE539;
+	transition: color .1s 0s ease-in-out;
+}
+
+nav a.left{
+	margin-left: 30px;
+}
+
+nav a.apply{
+	display:inline-block;
+	border: 2px solid #FFE539;
+	margin-right: 5%;
+	padding: 10px 20px 10px 20px;
+	float: right;
+	border-radius: 5px;
+	transition: transform 0.5s;
+	-moz-transition: transform 0.5s;
+	-webkit-transition: transform 0.5s;
+	-webkit-transform:scale(1,1);
+	-moz-transform:scale(1, 1);
+  	transform:scale(1,1);
+  	-ms-tranform:scale(1, 1);
+}
+
+nav a.apply:hover{
+	display:inline-block;
+  	color: #3091F8;
+  	background-color: #FFE539;
+	transition: transform 0.5s;
+  	-webkit-transform:scale(1.2,1.2);
+	-moz-transform:scale(1.2, 1.2);
+  	transform:scale(1.2,1.2);
+  	-ms-tranform:scale(1.2, 1.2);
+	font-size: 15px;
+}
+
+nav a.everyOther{
+	border-left: 2px solid #FFE539;
+	padding-left: 7px;
+}
+
+nav a:link{
+	color: #FFE539;
+}
+
+nav a:visited{
+	color: #FFE539;
+}
+
+nav a:hover{
+	color: white;
+	transition: color .1s 0s ease-in-out;
+}
+
+nav a:active{
+	color: white;
+}
+
+body{
+	margin: 0;
+}
+
+header{
+	text-align: center;
+	background: linear-gradient(to left , #1A70D5, #3792DD, #1A70D5);
+	margin: 0;
+	color: #FFE539;
+	padding: 20px 0 30px 0;
+	font-family: arial black;
+	border-bottom:2px solid #FFE539;
+}
+
+header h1{
+	margin: 0;
+	padding: 0;	
+	animation: splash 1s normal forwards ease-in-out;
+	font-family: 'Geo', sans-serif;
+	font-size: 45px;
+	text-shadow: -1px 1px white;
+}
+
+article{
+	/*align-content:center; */
+	background-image:url(ucla.jpg);
+	background-size:100% 100%; 
+	background-repeat:no-repeat;
+}
+
+#container{
+	background-color: black;
+	margin-left: 2.5%;
+	width: 94%;
+	border-left:4px solid #E2D21C;
+	border-right:4px solid #E2D21C;
+	border-top:2px solid #FFE539;
+}
+
+
+h2{
+	text-align: center;
+	font-family: cursive;
+	font-size: 40px;
+	font-weight: normal;
+	font-style:italic;
+	text-decoration: underline;
+	background-color: white;
+	margin: 0;
+	margin-left: 2.5%;
+	padding: 45px 0 45px 0;
+	width: 94%;
+	border-left:4px solid #E2D21C;
+	border-right:4px solid #E2D21C;
+}
+
+#h2width{
+	font-family: 'cursive';
+	background-color: #1C77F6;
+	color:#FFE539;
+}
+
+h3{
+	font-family: 'Geo', sans-serif;
+	color: #1B71D5;
+	text-align: center;
+	font-size: 30px;
+	padding: 0;
+	margin: 5px;
+	margin-top:5%;
+	margin-bottom: 4%;
+}
+
+div{
+	display: inline-block;
+	font-size: 16px;
+}
+
+div.holder{
+	background-color: white;
+}
+
+#container img{
+	width: 35%;
+	border-radius:10px;
+	border: 3px solid yellow;
+	margin-bottom:5%;
+}
+
+.TL{
+	float: right;
+	margin-right: 8%;
+}
+
+.TR{
+	margin-top: 2%;
+	margin-left: 8%;
+	float: left;
+}
+
+.left{
+	float: left;
+	margin-left:8%;
+}
+
+.right{
+	float: right;
+	margin-right: 8%;
+}
+
+#container p{
+	width: 35%;
+	font-size:18px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+footer{
+ 	padding: 20px 0 20px 0; 
+	background: linear-gradient(to left , #1A70D5, #3792DD, #1A70D5);
+	border-top:2px solid #FFE539;
+}

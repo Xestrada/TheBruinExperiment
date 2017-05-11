@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+@media screen and (max-height: 650px) and (min-width: 720px){
+	.slide p{
+		font-size: 100% !important;	
+	}
+}
+
+html{
+	min-width: 1000px;
+	background: linear-gradient(to left , #1A70D5, #3792DD, #1A70D5);
+}
+
+body{
+	 width: 100%;
+	 margin: 0;
+ }
+ 
+#top{
+	 width: 100%;
+}
+
+#head{
+	position: relative;
+	z-index: 1;	
+	margin: 0;
+	box-shadow: -5px 1px 15px black;
+}
+
+nav{
+	margin: 0 !important;	
+	background: -webkit-linear-gradient(left , #1A70D5, #3792DD, #1A70D5);
+	background: linear-gradient(to left , #1A70D5, #3792DD, #1A70D5);
+	padding: 7px 0 7px 0;
+	color: #FFE539;
+	margin-top: 5px;
+}
+
+nav form{
+	display: inline-block;
+	padding: 0 !important;
+	margin: 0 !important;
+	border-left: 2px solid #FFE539;
+	padding-left: 7px;
+}
+
+input.btn{
+	font-family:'century gothic';
+	font-weight:bold;
+	border-left: 2px solid #FFE539;
+	padding-left: 7px;
+	background-color: transparent;
+	color: #FFE539;
+	border:none;
+}
+
+input.btn:hover{
+	cursor:pointer;
+	font-family:'century gothic';
+	font-weight:bold;
+	border-left: 2px solid #FFE539;
+	padding-left: 7px;
+	background-color: transparent;
+	color: white;
+	border:none;
+}
+
+nav a{
+	font-family:'century gothic';
+	text-decoration: none;
+	padding: 0 4px 0 4px;
+	font-size: 14px;
+	font-weight:bold;
+	color: #FFE539;
+	transition: color .1s 0s ease-in-out;
+}
+
+nav a.left{
+	margin-left: 30px;
+	
+}
+
+nav a.apply{
+	display:inline-block;
+	border: 2px solid #FFE539;
+	margin-right: 5%;
+	padding: 10px 20px 10px 20px;
+	float: right;
+	border-radius: 5px;
+	transition: transform 0.5s;
+	-moz-transition: transform 0.5s;
+	-webkit-transition: transform 0.5s;
+	-webkit-transform:scale(1,1);
+	-moz-transform:scale(1, 1);
+  	transform:scale(1,1);
+  	-ms-tranform:scale(1, 1);
+}
+
+nav a.apply:hover{
+	display:inline-block;
+  	color: #3091F8;
+  	background-color: #FFE539;
+	transition: transform 0.5s;
+  	-webkit-transform:scale(1.2,1.2);
+	-moz-transform:scale(1.2, 1.2);
+  	transform:scale(1.2,1.2);
+  	-ms-tranform:scale(1.2, 1.2);
+	font-size: 15px;		 
+}
+
+nav a.everyOther{
+	border-left: 2px solid #FFE539;
+	padding-left: 7px;
+}
+
+nav a:link{
+	color: #FFE539;
+}
+
+nav a:visited{
+	color: #FFE539;
+}
+
+nav a:hover{
+	color: white;
+	transition: color .1s 0s ease-in-out;
+}
+
+.currentlyActive{
+	color: white;
+}
+
+header{
+	margin:0;
+	text-align: center;
+	background: -webkit-linear-gradient(left , #1A70D5, #3792DD, #1A70D5);
+	background: linear-gradient(to left , #1A70D5, #3792DD, #1A70D5);
+	color: #FFE539;
+	padding: 20px 0 30px 0;
+	font-family: arial black;
+	border-bottom:2px solid #FFE539;
+	height: 20%;
+}
+
+header a{
+	color: inherit;
+	text-decoration: none;	
+}
+
+header h1{
+	margin: 0;	
+	animation: splash 1s normal forwards ease-in-out;
+	font-family: 'Geo', sans-serif;
+	font-size: 45px;
+	text-shadow: -1px 1px white;
+}
+
+div{
+	z-index: 0;	
+}
+
+p{
+	width:48%;
+	float:right;
+	margin-right:4%;
+	font-size: 118%;
+	text-align:center;
+	color:white;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+img{
+	width:30%;
+	float:left;
+	margin-left:5%;
+	margin-bottom:20%;
+	border-radius:2%;
+	border:5px solid white;
+}
+
+.reg{
+	font-size:200%;
+	float:top;
+	margin-left:40%;
+	color:white;
+	font-family: 'Cabin Sketch';	
+}
+
+.intro{
+	font-size: 325%;
+	text-align:center;
+	float:top;
+	margin-bottom: 15%;
+	font-family: 'Cabin Sketch';	
+}
+
+h2{
+	text-align: center;
+	font-family: cursive;
+	font-size: 40px;
+	font-weight: normal;
+	font-style:italic;
+	text-decoration: underline;
+	margin: 0;
+}
+
+.slide{
+	background-image:url(../Images/chalk.png);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+.active{
+	height: 80%;	
+}
+
+.flip{
+	margin-top:4%;
+	-webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.oversized{
+	width:20%;
+}
+
+.footer h1{
+	text-align:center;
+}
+
+#foot{
+	height: 22% !important;
+	background: -webkit-linear-gradient(left , #1A70D5, #3792DD, #1A70D5);
+	background: linear-gradient(to left , #1A70D5, #3792DD, #1A70D5);
+	color: #FFE539;
+	border-top: 2px solid #FFE539;
+	margin: 0;
+}
+
+.icons{
+	padding-top:1%;
+	padding-bottom:1%;
+	margin-bottom: 10%;
+	margin-left:5%;
+	width:50px;
+	border:none;
+}
+
+#space{
+	padding-top:1%;
+	padding-bottom:1%;
+	border:none;
+	margin-bottom: 10%;
+	margin-left:38.5%;
+	width:50px;
+}

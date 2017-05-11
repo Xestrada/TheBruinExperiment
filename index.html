@@ -1,0 +1,112 @@
+<!Doctype html>
+<html>
+   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Jorge Estrada, Marcos Herrera, Daniel Hiaem">
+    <meta name = "description" content= "UCLA's TheBruinExperiment">
+    <meta name = "keywords" content = "Science,fair,UCLA,TheBruinExperiment,Mukai, Hiaem">
+     <title>TheBruinExperiment</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+	 <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet" type="text/css">
+     <link type="text/css" rel="stylesheet"  href="scripts/jquery.fullPage.css">
+     
+    <script src="scripts/infoFinder.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.fullPage.js"></script>
+    
+	<script type="text/javascript">
+      if (screen.width <= 800){
+         window.location = "http://thebruinexperiment.org/Bootstrap/BruinMobile.html";
+        }
+    </script>
+
+   	<script type = "text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				/* sectionsColors defines the colors for each section in order starting with section0 */
+				anchors: ['Welcome', 'About_Us', 'Contact_Info'],
+				sectionsColor: [ 'linear-gradient(to left , #1A70D5, #3792DD, #1A70D5)', '#0A506A', '#0B5D7A', '#0E7397'],
+				loopBottom: true,
+				easing: 'easeInOutExpo',
+				slidesNavigation: true,
+				
+				onLeave: function(index, nextIndex, direction){
+            		var leavingSection = $(this);
+					
+
+       			 },
+				 onSlideLeave: function(index, nextIndex, direction){
+            		var leavingSection = $(this);
+					
+					
+
+       			 }
+			});
+		});
+ 
+    </script>
+     
+     
+   </head>
+
+    <body id = "top" onLoad="divSetter()">
+    <section id = "head">
+    	      <nav>
+                 <a href="Team/the_team.html" class = "left">The Team</a>
+                 <a href= "Past_Projects/past_projects.html" class="everyOther">Past Projects</a>
+                 <a href = "Apply/Application.php"  class = "apply">Apply</a>
+                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				 <input type="hidden" name="cmd" value="_s-xclick">
+
+				 <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHVwYJKoZIhvcNAQcEoIIHSDCCB0QCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC7Xm9keHmxqvLGQvg5da+MCunH30f0q7X0rCueXrSmby5jJzaBimaPRfBPWV1IvDvDMw+A9a/LpyyXVNYPXTUj1LYDzO/bq2VJa5hHz2bH5BPeUmaXBHKwMKk1HWlnnlmlL+vgMWIGvoZP4KJhLx1sqJ8VTYUJzzQJCy9RtH3vtTELMAkGBSsOAwIaBQAwgdQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIaNT7gazzuOyAgbDu14hVSW5CJ51o5zVptmYxaj9oP8vVZmJthmO8PU1WbvAOF/FfwQwYrdFjnCND+3lqDSYUXMYRXJIFPy3sg0Oz9FuBkA2ZVyxw/Qy+b0+ISshqGr2bN75E+azlinaHelUokKjqhuUiWfl/xc5SDixvUd8o2rINyE1TaS4i0EQVvCCbZwPWgk62aSli21QzBt+Cn6RF9ABy/zM7pdJhe3gxi5YdWpD8l+YntGdIMmDdzaCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE2MDMwOTA0MjMxNFowIwYJKoZIhvcNAQkEMRYEFBFw844aJJBf6hRXeJ9Oe/MKx4VdMA0GCSqGSIb3DQEBAQUABIGAYAXwQ8c6RsuNzi/xutXcn6U2V4oWA8qz7yxwevAlVwdDi5IXHWYJs53gwyYv8Zg0NVdYps3GnLmUeA8fN+kRvcXvq3ZirpCr/afe5/zgNUVT6OXwaOC2b/GNjJ0zdoNyLBDLocHW5WkNKSbpt1G06aaSahRYEP1IYJTb2yVBNOY=-----END PKCS7-----">
+				<input type="submit" name="submit" value="Donations" class = "btn">
+				</form>
+             </nav>
+	 
+  	<header> 		               	        
+   			<h1>TheBruinExperiment</h1>
+  	</header>
+    </section>
+	<!-- Do not mess with fullpage div -->
+      <div id="fullpage">
+      
+      <!-- This is the main page, no slide is necessary use the the id to design it -->
+      <div class = "section active" id = "section0">
+			<h1 class = "intro" id = "start">So, Who Are We?</h1>
+      </div>
+      
+      <!-- About us slides, design each slide individually based on classes no ID! -->
+      <div class="section" id = "section1">
+          <div class = "slide active">
+          	<h1 class = "reg">WE ARE LEADERS</h1>
+			<img src="Images/leadership.jpg" alt = "Leadership" class="imagez">
+			<p>TBE is a group of UCLA undergraduate students from different backgrounds, ranging from Microbiology majors to English majors, who come together to inspire scientific curiosity in the youth of Los Angeles. We visit local middle schools weekly and guide students through the scientific method, making it relevant through the lens of classic research paradigms as well as current research! Being a leader within TBE requires only a heart of service, a fun-loving spirit, and a willingness to grow. (Notice: no science background required!) </p>
+          </div>
+           <div class = "slide">
+          	<h1 class = "reg">WE ARE CURIOUS</h1>
+			<img src="Images/curious.jpg" alt = "Curiosity" class="imagez">
+			<p>A child’s mind is a wonderful thing, and giving students the proper avenue to pursue their creative endeavors is the reason this club exists. As college students who’ve been through it all, we understand that textbook science can sometimes be boring and inefficient. By fostering curiosity in our club, we help the students learn about the scientific method from a first hand experience. They choose their own projects based on their own passions and work at their own pace—we merely guide them along the way. </p>
+          </div>
+          <div class = "slide">
+          	<h1 class = "reg">WE ARE OUTREACH</h1>
+			<img src="Images/Outreach.jpg" alt = "Outreach" class="imagez">
+			<p>To middle school students, studying science can seem like an insurmountable feat. Without proper resources and guidance, students’ interest in science can be forced to take a backseat. We aim to provide underserved students with the means to develop a passion for STEM fields. We want to help these students see that science, though difficult at times, can be fun and rewarding. </p>
+          </div>
+          <div class = "slide">
+          	<h1 class = "reg">WE ARE FAMILY</h1>
+			<img src="Images/family.jpg" alt = "Family" class="imagez">
+			<p>TBE is not only dedicated to service, but to community. TBE’s mentors bond over retreats, hangouts, and an annual banquet, including kids in the fun with bonfires and Park Day, too! Though we prioritize giving back to our city, we also emphasize growing our family on the UCLA campus. </p>
+          </div>
+
+      </div>
+      <div class = "section fp-auto-height footer" id = "foot">
+      
+      	<a href  = "mailto:thebruinexperiment@gmail.com"><img src="Images/mail.png" alt = "Mail" height="50" width="50" id = "space"></a>
+        <a href= "https://www.facebook.com/thebruinexperiment/" target="_blank"><img src="Images/Facebook.png" alt = "Facebook" height="50" width="50" class = "icons"></a>
+        <a title = "1-310-999-1722" href="tel:13109991722"><img src="Images/phone.png" alt = "Phone NUmber" height="50" width="50" class = "icons"></a>
+       </div>
+   
+  </div>
+</body>
+</html>

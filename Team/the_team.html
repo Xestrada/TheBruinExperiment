@@ -1,0 +1,132 @@
+<!Doctype html>
+<html>
+   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Jorge Estrada, Marcos Herrera, Daniel Hiaem">
+    <meta name = "description" content= "UCLA's TheBruinExperiment">
+    <meta name = "keywords" content = "Science,fair,UCLA,TheBruinExperiment,Mukai">
+     <title>TheBruinExperiment</title>
+     <link rel="stylesheet" type="text/css" href="team_style.css">
+     <link type="text/css" rel="stylesheet"  href="../scripts/jquery.fullPage.css">
+     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet" type="text/css">
+     
+    <script src="../scripts/infoFinder.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../scripts/jquery.fullPage.js"></script>
+	
+   	<script type = "text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				/* sectionsColors defines the colors for each section in order starting with section0 */
+				anchors: ['The_Team', 'Contact_Info'],
+				sectionsColor: [ 'linear-gradient(to left , #1A70D5, #3792DD, #1A70D5)', '#0A506A', '#0B5D7A', '#0E7397'],
+				loopBottom: true,
+				easing: 'easeInOutExpo',
+				slidesNavigation: true,
+				
+				onLeave: function(index, nextIndex, direction){
+            		var leavingSection = $(this);
+					
+
+       			 },
+				 onSlideLeave: function(index, nextIndex, direction){
+            		var leavingSection = $(this);
+					
+					
+
+       			 }
+			});
+		});
+ 
+    </script>
+     
+	 <script type="text/javascript">
+      if (screen.width <= 800){
+         window.location = "http://thebruinexperiment.org/Bootstrap/Team/Team.html";
+        }
+    </script>
+     
+   </head>
+
+    <body id = "top" onLoad="divSetter()">
+    <section id = "head">
+    	          <nav>
+                 <a href = "#The_Team" class = "left">The Team</a>
+                 <a href = "../Past_Projects/past_projects.html" class="everyOther">Past Projects</a>
+                 <a href = "../Apply/Application.php"  class = "apply">Apply</a>
+				  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+
+<input type="hidden" name="cmd" value="_s-xclick">
+
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+
+">
+
+<input type="submit" name="submit" value="Donations" class = "btn">
+
+</form>
+             </nav>
+	 
+  	<header> 		               	        
+   			<h1><a href="../index.html">TheBruinExperiment</a></h1>
+  	</header>
+    </section>
+	<!-- Do not mess with fullpage div -->
+      <div id="fullpage">
+      
+      
+      <!-- The Team Slides -->
+      <div class="section active" id = "section2">
+          <div class = "slide active">
+          	<h1 class = "intro" style="color:white;">The Team</h1>
+          </div>
+          <div class = "slide">
+          	<h1 class = "reg" style="color:white;">Micah Minchow</h1>
+			<img src="../Images/Micah.jpg" alt = "Micah">
+			<p>Age: 21
+			Major: Political Science
+			Bio: I am a Utah native, transfer student, and 4th year Senior. I love to be active outdoors and play sports such as soccer, mountain biking, and skiing. I love science, technology and philosophy. After I graduate I want to work in Washington D.C. as a lobbyist for Sustainable Businesses and/or NASA. My hero is Elon Musk and Groot from Guardians of the Galaxy. </p>
+          </div>
+          <div class = "slide">
+          	<h1 class = "reg">Mitchell Bandersky</h1>
+			<img src="../Images/Mitch.JPG" alt = "Mitchell Bandersky" class = "flip">
+			<p>Age: 20
+			Major: Communication Studies
+			Hometown : Studio City
+			I'm a transfer student from Santa Monica College and I'm about to enter my fourth year at UCLA! I'm a counselor at Bruin Woods as well as a member of the Bruin Advertising/Marketing Team and Theta Chi fraternity. My career aspirations are to one day become a talent agent! </p>
+          </div>
+          <div class = "slide">
+          	<h1 class = "reg">Michael Moradian</h1>
+			<img src="../Images/Mikey.jpg" alt = "Michael Moradian">
+			<p>Age: 21
+			Major: History
+			Bio: I am a Texas native, transfer student, and a 4th year senior. In my spare time I love to lift weights and hang out with friends. I love science, technology, and exploring new things. After I graduate I want to go to medical school. </p>
+          </div>
+          <div class = "slide">
+          	<h1 class = "reg">Joshua Danoush</h1>
+			<img src="../Images/no_img.jpe" alt = "Joshua Danoush">
+			<p>Age: 23 Major: Psychology Bio: I am a senior transfer at UCLA from Pierce College. On my free time I love to go swimming, hiking and play basketball. I was intrigued by science ever since my first chemistry class in high school and it has been growing ever since. I am an aspiring Dentist, currently applying to Dental School. I really enjoy working with kids and have a great amount of experience in doing so. My goal is to continue doing this in my future career, as I hope to specialize in Pediatric Dentistry. </p>
+          </div>
+          <div class = "slide">
+          	<h1 class = "reg">Daniel Haiem</h1>
+			<img src="../Images/Daniel.jpg" alt = "Daniel Haiem" class = "oversized">
+			<p>Age: 21
+			Major: Neuroscience
+			Bio: I have always been sort of a science nerd; physics and math are my favorite subjects. At one point, my co-founder, Katie Mowris, and I decided we wanted to share our love for science with younger students so we created TheBruinExperiment. On my own time, I like to drum, watch movies and run long distances. In the future, I hope to become a neurosurgeon. </p>
+          </div>
+          <div class = "slide">
+          	<h1 class = "reg">Mr. Kenneth Mukai</h1>
+			<img src="../Images/Ken.JPG" alt = "Mr.Mukai" class = "oversized" id = "mukai">
+			<p>When I first came to Ken, the head of the science department at LACES, with our idea to help orchestrate a science fair, he was enthusiastic and accepting. He saw a bunch of college students brimming with passion and a desire to spread scientific curiosity and related that in his day, he had done the same. With Ken’s help, we were able to successfully integrate our “science fair” curriculum with that of LACES and create the first ever “Bruin Science Fair!” It was obvious to me from the way his students and fellow faculty treated him, that Ken is truly a respectable individual. He’s an excellent instructor and mentor to the students at LACES and was truly integral to the success of TheBruinExperiment. 	-Daniel Haiem, President of TheBruinExperiment </p>
+          </div>
+      </div>
+      <div class = "section fp-auto-height footer" id = "foot">
+      	<a href  = "mailto:thebruinexperiment@gmail.com"><img src="../Images/mail.png" alt = "Mail" height="50" width="50" id = "space"></a>
+        <a href= "https://www.facebook.com/thebruinexperiment/" target="_blank"><img src="../Images/Facebook.png" alt = "Facebook" height="50" width="50" class = "icons"></a>
+        <a title = "1-310-999-1722" href="tel:13109991722"><img src="../Images/phone.png" alt = "Phone NUmber" height="50" width="50" class = "icons"></a>
+       </div>
+   
+  </div>
+</body>
+</html>
